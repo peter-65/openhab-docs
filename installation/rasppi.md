@@ -141,6 +141,9 @@ It is a selection of the general Linux installation steps described in  [Package
 
 Refer to that page if you wish to view a comprehensive guide to every possible Linux installation environments instead.
 
+There is an error with the wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | sudo apt-key add - this does not work if you have created a NEW 
+RP OS (recommened) image from scratch there is no user "openhab" only the pi user is aviable at this point. Been able to work that out but not how to create a "openhab" user.
+
 1. First, add the openHAB Bintray repository key to your package manager and allow Apt to use the HTTPS Protocol:
 
    ```shell
